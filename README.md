@@ -1,4 +1,4 @@
-# 💳 Credit Card Default Risk Intelligence Platform
+#  Credit Card Default Risk Intelligence Platform
 ### Exploratory Data Analysis | UCI Credit Card Dataset | 30,000 Customers | 25 Features
 
 > **"Identifying the behavioral fingerprints of financial default — 3 to 4 months before it happens."**
@@ -11,7 +11,7 @@
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 1. [Problem Statement](#problem-statement)
 2. [Project Objectives](#objectives)
 3. [Dataset Description](#dataset-description)
@@ -28,7 +28,7 @@
 
 ---
 
-## 🎯 Problem Statement
+##  Problem Statement
 
 Credit card defaults cost the banking industry billions annually. Traditional rule-based systems flag customers **after** default occurs — too late for meaningful intervention.
 
@@ -43,7 +43,7 @@ The analysis is aligned with **CIBIL/TransUnion credit bureau scoring methodolog
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 - Perform a complete end-to-end EDA on 30,000 credit card customer records
 - Identify the top behavioral, financial, and demographic risk signals
@@ -54,7 +54,7 @@ The analysis is aligned with **CIBIL/TransUnion credit bureau scoring methodolog
 
 ---
 
-## 📦 Dataset Description
+##  Dataset Description
 
 | Attribute | Details |
 |---|---|
@@ -80,7 +80,7 @@ The analysis is aligned with **CIBIL/TransUnion credit bureau scoring methodolog
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Category | Tools |
 |---|---|
@@ -94,7 +94,7 @@ The analysis is aligned with **CIBIL/TransUnion credit bureau scoring methodolog
 
 ---
 
-## 🏗️ Architecture / Workflow
+##  Architecture / Workflow
 
 ```
 Raw CSV Data (30,000 rows × 25 cols)
@@ -164,7 +164,7 @@ Raw CSV Data (30,000 rows × 25 cols)
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
 - **19 production-quality visualizations** covering univariate, bivariate, and multivariate analysis
 - **Feature engineering** — computed Credit Utilization Ratio from raw bill and limit data
@@ -176,7 +176,7 @@ Raw CSV Data (30,000 rows × 25 cols)
 
 ---
 
-## 🔍 EDA Insights
+##  EDA Insights
 
 ### Univariate
 - **22.1% overall default rate** (6,636 defaulters vs 23,364 non-defaulters) — class imbalance confirmed
@@ -201,7 +201,7 @@ Raw CSV Data (30,000 rows × 25 cols)
 
 ---
 
-## 📊 Key Business Insights
+##  Key Business Insights
 
 ### 🔴 Insight 1 — Payment History is the #1 Risk Signal
 Customers who were 2+ months late in September showed a **~70% default probability** — more than **3× the 22.1% baseline**. This single feature (PAY_0) carries correlation coefficient **+0.325** with default. **Action:** Flag any customer with PAY_0 ≥ 2 as HIGH RISK and trigger immediate collection outreach.
@@ -229,7 +229,7 @@ Multivariate heatmap reveals that **60+ age + University education** segments sh
 
 ---
 
-## 📸 Visualizations
+##  Visualizations
 
 | # | Chart | Key Takeaway |
 |---|---|---|
@@ -255,7 +255,7 @@ Multivariate heatmap reveals that **60+ age + University education** segments sh
 
 ---
 
-## 📈 Results & Findings
+##  Results & Findings
 
 | Metric | Value |
 |---|---|
@@ -271,7 +271,7 @@ Multivariate heatmap reveals that **60+ age + University education** segments sh
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 - **Machine Learning Models** — Train Logistic Regression, Random Forest, XGBoost, LightGBM for binary classification; use SMOTE or class weighting to address the 78/22 imbalance
 - **SHAP Explainability** — Apply SHAP values to explain individual prediction decisions (audit-ready, regulator-friendly)
@@ -283,7 +283,7 @@ Multivariate heatmap reveals that **60+ age + University education** segments sh
 
 ---
 
-## ⚙️ How to Run
+##  How to Run
 
 ### Prerequisites
 ```bash
@@ -310,7 +310,7 @@ jupyter notebook EDA.ipynb
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 
 ```
 credit-card-default-risk-eda/
@@ -347,7 +347,7 @@ credit-card-default-risk-eda/
 
 **Saishiva Akula**
 - 📅 March 2026
-- 🔗 [LinkedIn](#) | [GitHub](#) | [Portfolio](#)
+- 🔗 [LinkedIn](https://www.linkedin.com/in/saishivaakula/) | [GitHub]() | [Portfolio](https://saishiva00.github.io/Saishiva-portfolio/)
 
 ---
 
